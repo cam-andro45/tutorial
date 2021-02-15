@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-width: 70%;
 }
 
 .App-logo {
@@ -15,13 +16,19 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 20px;
+  min-width: 70%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.input-file {
+  display: none;
 }
 
 .App-link {
